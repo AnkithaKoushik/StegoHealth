@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Node/React
+node_modules/
+dist/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Project specific
+storage/uploads/*
+storage/images/*
+storage/results/*
+!storage/uploads/.gitkeep
+!storage/images/.gitkeep
+!storage/results/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Data
+*.csv
+*.npy
+*.npz
+*.zip
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+.coverage
+htmlcov/
