@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>admin</username>
+    <!-- Password is "admin123" hashed with bcrypt -->
+    <password>admin123</password>
+    <role>admin</role>
+  </user>
+  <user>
+    <username>user</username>
+    <!-- Password is "user123" hashed with bcrypt -->
+    <password>$2b$12$1FKd0.NN3c8U8j.0RbFfUO8f0H0AEsvrpRdTVrO1hKPWsQnp2wvGK</password>
+    <role>user</role>
+  </user>
+</users>
